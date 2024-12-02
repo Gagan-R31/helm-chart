@@ -1,19 +1,16 @@
 # Global configurations for all services
 global:
   imagePullPolicy: IfNotPresent
-
 # Chart-service configuration
 chartService:
   image:
     repository: chart-service
-    tag: 1.0.0
-
+    tag: v1.1.15
 # MinIO configuration
 minio:
   image:
     repository: minio/minio
     tag: latest
-
 # Ollama configuration
 ollama:
   image:
